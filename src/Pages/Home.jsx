@@ -277,19 +277,7 @@ const Home = ({ theme, toggleTheme }) => {
                     </div>
 
                     <div className="filter-controls">
-                      <div className="filter-group">
-                        <label htmlFor="language-filter">Language:</label>
-                        <select
-                          id="language-filter"
-                          value={selectedLanguage}
-                          onChange={(e) => handleLanguageChange(e.target.value)}
-                          className="language-select"
-                        >
-                          {LANGUAGE_VALUES.map(lang => (
-                            <option key={lang} value={lang}>{lang}</option>
-                          ))}
-                        </select>
-                      </div>
+                     
 
                       {/* Year filter removed */}
                     </div>
